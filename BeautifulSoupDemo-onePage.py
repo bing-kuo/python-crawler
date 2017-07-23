@@ -1,14 +1,9 @@
 
 # coding: utf-8
 
-# In[3]:
-
 import requests
 from bs4 import BeautifulSoup
 import time
-
-
-# In[4]:
 
 tStart = time.time()
 
@@ -23,10 +18,4 @@ for product in soup.select(".att-item"):
     print("\n")
     
 tEnd = time.time()
-print("執行時間 :"+str(tEnd - tStart))
-
-
-# In[ ]:
-
-
-
+print("Run time :"+str(tEnd - tStart))
