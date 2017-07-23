@@ -1,14 +1,9 @@
 
 # coding: utf-8
 
-# In[82]:
-
 import requests
 from bs4 import BeautifulSoup
 import time
-
-
-# In[84]:
 
 tStart = time.time()
 for i in range(5):
@@ -26,5 +21,5 @@ for i in range(5):
         print("\n")
 
 tEnd = time.time()
-print("執行時間 :"+str(tEnd - tStart))
+print("Run Time :"+str(tEnd - tStart))
 
