@@ -1,8 +1,5 @@
 
 # coding: utf-8
-
-# In[72]:
-
 # version: 1.0
 # author: Bing
 # selenium demo
@@ -12,9 +9,6 @@ import time
 from bs4 import BeautifulSoup
 from selenium import webdriver
 ##############################################################
-
-
-# In[75]:
 
 # 新增一個Firefox driver
 browser = webdriver.Firefox(executable_path=r"C:\Python\geckodriver.exe")
@@ -43,14 +37,5 @@ for review in reviews:
 
 #結束，關閉瀏覽器
 browser.quit()
-
-
-# In[ ]:
-
-
-
-
-# In[ ]:
-
 
 
